@@ -21,4 +21,16 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
     ofxJSONElement json;
+    
+    //sample graph elements since tokens aren't working
+    ofBoxPrimitive box[3];
+    ofImage pinstripes;
+    
+    string round;
+    string question;
+    int r = 0;  //round index
+    int q = 0;  //question index
+
+    ofTrueTypeFont  franklinBook;
+    ofTrueTypeFont  franklinBookL;
 };
